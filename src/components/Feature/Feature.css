@@ -1,0 +1,42 @@
+.feature-container {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 120px;
+    margin-top: 30px;
+}
+
+.feature-container>h1 {
+    color: white;
+    font-size: 42px;
+    margin-top: 20px;
+}
+
+.feature-subheading {
+    display: flex;
+}
+
+.feature-subheading>div {
+    color: white;
+    font-size: 26px;
+    font-weight: 400;
+    margin: 2% 0 0 20%;
+    margin-top: 7%;
+}
+
+.feature-subheading>img {
+    margin-top: 20px;
+}
+
+.feature-subheading>div>span {
+    color: #0096ff;
+}
+
+strike {
+    color: red;
+}
+
+strike>span {
+    color: white;
+}

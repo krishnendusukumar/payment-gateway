@@ -1,0 +1,216 @@
+.payment-container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    margin-top: 3%;
+    border-radius: 10px;
+    width: 25%;
+}
+
+.payment-login {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0 5% 0 15%;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.3%;
+}
+
+.login>.login-1 {
+    width: 25px;
+    height: 24px;
+    background-color: #0096ff;
+    color: white;
+    border-radius: 50%;
+}
+
+.login div:nth-child(2) {
+    font-size: 16px;
+}
+
+.subscribe div:nth-child(2) {
+    font-size: 16px;
+}
+
+.subscribe>.login-2 {
+    width: 25px;
+    height: 24px;
+    background-color: #0096ff !important;
+    color: white;
+    border-radius: 50%;
+}
+
+.payment-plan {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.payment-pricing:nth-child(1) {
+    position: relative;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #b1afaf;
+    color: #86867b;
+    font-size: 15px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.pricing-text {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: black;
+}
+
+.pricing-text>label {
+    margin-top: 3px;
+}
+
+.pricing-text:nth-child(1)>span {
+    position: absolute;
+    top: 0;
+    left: 25%;
+    font-size: 12px;
+    width: 40%;
+    height: 25%;
+    background-color: #DE4313;
+    color: white;
+}
+
+.pricing-numbers {
+    margin-right: 0;
+    margin-top: 2.5%;
+}
+
+.payment-pricing {
+    margin-bottom: 10px;
+    position: relative;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    color: #86867b;
+    font-size: 15px;
+    align-items: center;
+    border-radius: 10px;
+    position: relative;
+    border: 5px solid #d6d6d6;
+
+}
+
+.recommended {
+    position: absolute;
+    top: 0;
+    left: 25%;
+    font-size: 10px;
+    width: 40%;
+    height: 20%;
+    background-color: #47ba68 !important;
+    color: white;
+}
+
+.clicked {
+    border: 4px solid #47ba68 !important;
+    background-color: #d7eddd;
+}
+
+.payment-fee {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 40px 0 50px;
+}
+
+.discount-valid {
+    display: flex;
+    justify-content: left;
+}
+
+.discount-fee {
+    display: flex;
+    flex-direction: column;
+    background-color: #fbe3d6;
+    color: red;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 4px solid #de4313;
+}
+
+.discounted-text {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 35px 0 50px;
+}
+
+.discount-valid {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 35px 0 90px;
+
+}
+
+.discount-valid>img {
+    width: 30px;
+    margin-left: -100px;
+}
+
+.discount-valid>span {
+    margin-left: -80px;
+    margin-top: 5px;
+}
+
+.final-price {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.payment-done-button {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.cancel {
+    width: 40%;
+    border-radius: 0;
+    background-color: white;
+    color: red;
+    font-size: 18px;
+    border: 2px solid #de4313;
+}
+
+.proceed {
+    width: 40%;
+    border-radius: 0;
+    background-color: #47BA68;
+    color: white;
+    font-size: 18px;
+    border: 2px solid black;
+}
+
+.png-razorpay {
+    width: 20%;
+    float: left;
+    margin-top: 15px;
+    margin-left: 30px;
+}
