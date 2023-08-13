@@ -40,3 +40,15 @@ strike {
 strike>span {
     color: white;
 }
+
+@media only screen and (max-width: 816px) {
+    .feature-container {
+        width: 90%;
+    }
+
+    .feature-container>h1 {
+        color: white;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+}

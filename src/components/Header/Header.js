@@ -27,7 +27,11 @@ const Header = () => {
             </div>
             <div className="header-right">
                 <ul>
-                    <li><img src={search} alt="" /></li>
+                    <li>
+                        <input type="text" className='search-input' placeholder='Seach courses' />
+                        <img src={search} alt="" className='srch-img' />
+                    </li>
+
                     <li>Log in</li>
                     <li>
                         <button>

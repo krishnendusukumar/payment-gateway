@@ -42,3 +42,12 @@
   display: flex;
   justify-content: space-around;
 }
+
+
+@media screen and (max-width: 810px) {
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

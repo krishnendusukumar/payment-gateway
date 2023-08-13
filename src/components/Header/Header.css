@@ -35,6 +35,10 @@ select {
     height: 40%
 }
 
+.search-input {
+    display: none;
+}
+
 ul li {
     list-style: none;
 }
@@ -57,4 +61,79 @@ button {
     color: white;
     font-size: .7rem;
     height: 30px;
+}
+
+@media screen and (max-width: 810px) {
+    .header-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        background-color: white;
+        height: 30%;
+        background-color: #111724;
+    }
+
+    .header-left>ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+
+    .header-left>ul>li {
+        margin-bottom: 10%;
+    }
+
+    .header-left>ul>li>select {
+        color: white;
+        background-color: #111724;
+    }
+
+    .header-right {
+        margin-top: -10%;
+        margin-left: 10%;
+    }
+
+    .header-right>ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+
+        color: white;
+    }
+
+    .header-right>ul>li {
+        margin-bottom: 5%;
+    }
+
+    .header-right>ul>li>img {
+        display: none;
+    }
+
+    .header-right>ul>li:nth-child(2) {
+        display: none;
+    }
+
+    .search-input {
+        width: 25%;
+        min-width: 17%;
+        height: 1vh;
+        margin-top: 4rem;
+        display: flex;
+        padding: 10px 20px;
+        transition: 0.8s;
+        background: transparent;
+        font-size: 14px;
+        background-color: white;
+        border-radius: 30px;
+        align-items: center;
+        border: 5ps solid #0096ff;
+    }
+
+    button {
+        min-width: 25%;
+    }
+
+    .search-input:hover {
+        width: 100%;
+    }
 }

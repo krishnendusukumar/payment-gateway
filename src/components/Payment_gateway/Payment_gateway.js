@@ -58,8 +58,9 @@ const Payment_gateway = () => {
       <div className="payment-plan">
         <button className="payment-pricing">
           <div className="pricing-text">
-            <input type="radio" checked />
-            <label>12 Months Subscription</label>
+            <label>
+              <input type="radio" checked />
+              12 Months Subscription</label>
             <span>Offer expired</span>
           </div>
           <div className="pricing-numbers">
@@ -74,8 +75,9 @@ const Payment_gateway = () => {
 
         <button className={checked1 ? "clicked payment-pricing" : "payment-pricing"}>
           <div className="pricing-text">
-            <input type="radio" checked={checked1 === "clicked"} onClick={() => handleClick('a')} />
-            <label>12 Months Subscription</label>
+            <label>
+              <input type="radio" checked={checked1 === "clicked"} onClick={() => handleClick('a')} />
+              12 Months Subscription</label>
             <span className='recommended'>Recommended</span>
           </div>
 
@@ -91,8 +93,9 @@ const Payment_gateway = () => {
 
         <div className={checked2 ? "clicked payment-pricing" : "payment-pricing"}>
           <div className="pricing-text">
-            <input type="radio" checked={checked2 === "clicked"} onClick={() => handleClick('b')} />
-            <label>6 Months Subscription</label>
+            <label>
+              <input type="radio" checked={checked2 === "clicked"} onClick={() => handleClick('b')} />
+              6 Months Subscription</label>
           </div>
 
           <div className="pricing-numbers">
@@ -107,8 +110,9 @@ const Payment_gateway = () => {
         </div>
         <div className={checked3 ? "clicked payment-pricing" : "payment-pricing"}>
           <div className="pricing-text">
-            <input type="radio" checked={checked3 === "clicked"} onClick={() => handleClick('c')} />
-            <label>3 Months Subscription</label>
+            <label>
+              <input type="radio" checked={checked3 === "clicked"} onClick={() => handleClick('c')} />
+              3 Months Subscription</label>
           </div>
 
           <div className="pricing-numbers">
