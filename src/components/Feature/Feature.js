@@ -10,7 +10,7 @@ const Feature = () => {
   return (
     <div className='feature-container'>
       <h1>
-        Access curated courses worth <strike> <span> ₹ 18,500 </span></strike>&nbsp; at just ₹ 99 per year!
+        Access curated courses worth ₹<strike> <span> 18,500 </span></strike>&nbsp; at just ₹ 99 per year!
       </h1>
       <div className="feature-subheading">
         <img src={book} alt="" />
@@ -26,7 +26,7 @@ const Feature = () => {
       </div>
       <div className="feature-subheading">
         <img src={edu} alt="" />
-        <div>Scholorship worth <span>&nbsp;₹ 94,500</span></div>
+        <div>Scholorship worth ₹<span>&nbsp; 94,500</span></div>
       </div>
       <div className="feature-subheading">
         <img src={ads} alt="" />

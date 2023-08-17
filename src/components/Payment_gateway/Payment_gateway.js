@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import time from '../../assets/time.png'
 import './Payment_gateway.css'
 import razorpay from '../../assets/razorpay.png'
 
@@ -11,7 +10,7 @@ const Payment_gateway = () => {
   const [price4, setprice4] = useState(199)
   const [price, setprice] = useState()
   const [totalPrice, setTotalPrice] = useState(19799)
-  const priceList = [19799, 19999, 21299];
+  const priceList = [18599, 18649, 18699];
 
   const [checked1, setChecked1] = useState("clicked")
   const [checked2, setChecked2] = useState()
@@ -141,7 +140,6 @@ const Payment_gateway = () => {
           <span>-₹{DiscountPrice}</span>
         </div>
         <div className="discount-valid">
-          <img src={time} alt="" />
           <span>Offer valid till 25th Mar 2023</span>
         </div>
       </div>

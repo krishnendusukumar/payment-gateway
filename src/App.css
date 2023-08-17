@@ -44,7 +44,7 @@
 }
 
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 966px) {
   .app-container {
     display: flex;
     flex-direction: column;
